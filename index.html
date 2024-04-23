@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <title>Script Saga</title>
     <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/form.css" />
   </head>
   <body>
     <header>
@@ -16,31 +17,29 @@
         </label>
       </nav>
     </header>
-    <div class="split left">
-      <section class="centered">
-        <h3>Write what's on your mind!</h3>
-        <img src="./assets/images/script-saga-logo.png" />
-      </section>
-    </div>
+    <main>
+      <div class="split left">
+        <section class="centered">
+          <img src="./assets/images/script-saga-logo.png" />
+        </section>
+      </div>
 
-    <div class="split right">
-      <section class="centered">
-        <form>
-          <label for="user">User:</label><br>
-          <input user="username" id="username" />
-          <label for ="title">Title:<label><br>
-          <input title="title" id="title" />
-          <br />
-          <textarea id="textarea" placeholder="Tell Me Everything"></textarea>
-          <br />
-          <button id="submit">Submit</button>
-        </form>
-      </section>
-    </div>
+      <div class="split right">
+        <section class="centered">
+          <h2>What comes to mind?</h2>
+          <form id="blog-form-styling" method="POST">
+            <input type="text" placeholder="Username" id="username" />
+            <input type="text" placeholder="Title of Post" id="title" />
+            <input
+              type="text"
+              placeholder="Feel free to vent away..."
+              id="vent-text"
+            />
+            <button id="submit">Submit</button>
+          </form>
+        </section>
+      </div>
+    </main>
+    <script src="./assets/js/form.js"></script>
   </body>
 </html>
-
-
-
-
-
