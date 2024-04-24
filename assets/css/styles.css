@@ -8,8 +8,25 @@
 * {
   margin: 0;
   padding: 0;
+  font-size: 22px;
   box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
+
+#mind-bigger {
+  font-size: 32px;
+}
+
+#script-bigger {
+  font-size: 32px;
+}
+
+#problem {
+  color: red;
+  font-style: italic;
+}
+
 body {
   background-color: var(--light-white-green);
 }
@@ -49,22 +66,28 @@ header nav {
   border: solid #e4e4e4;
 }
 /* If you want the content centered horizontally and vertically */
-.centered {
+ .centered {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
+  transform: translate(-69%,-56%); 
+  text-align: center; 
 }
 .centered-right {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-56%,-56%);
+} 
+
+#pic-bigger{
+  width: 
+  border: solid red;
 }
+
 /* Style the image inside the centered container, if needed */
 .centered img {
-  width: 100%;
+ width: 140%;
   border-radius: 50%;
 }
 /*==================================================*/

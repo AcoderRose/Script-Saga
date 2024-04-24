@@ -17,7 +17,7 @@ submitBtn.addEventListener("click", function (event) {
     ventTextEl.value === ""
   ) {
     problemEl.textContent =
-      "Please make sure to enter your username, title of the post, and of course your vent post, please write to your heart's content.";
+      "Please make sure to enter your username, title of the post, and of course your 'venting', please write to your heart's content.";
   } else {
     //Creating Vent Post Object
     const ventPost = {
