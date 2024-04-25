@@ -7,14 +7,21 @@
     <link rel="stylesheet" href="./assets/css/styles.css" />
     <link rel="stylesheet" href="./assets/css/blog.css" />
   </head>
-  <body>
+  <body class="light">
     <header>
       <h1>Script Saga Blog Posts</h1>
-      <button id="back-button">back</button>
+      <nav>
+        <button class="back"><a href="./index.html">Back</a></button>
+        <label class="switch">
+          <input type="checkbox" id="theme-switcher" />
+          <span class="slider round"></span>
+        </label>
+      </nav>
     </header>
     <main>
       <div id="blog-list"></div>
     </main>
     <script src="./assets/js/blog.js"></script>
+    <script src="./assets/js/logic.js"></script>
   </body>
 </html>
