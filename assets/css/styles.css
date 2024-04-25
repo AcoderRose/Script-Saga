@@ -124,7 +124,7 @@ header nav {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #009898;
+  background-color:rgb(64, 64, 98);
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -140,7 +140,7 @@ header nav {
   transition: 0.4s;
 }
 input:checked + .slider {
-  background-color: rgb(64, 64, 98);
+  background-color: #009898;
 }
 input:focus + .slider {
   box-shadow: 0 0 1px rgb(64, 64, 98);

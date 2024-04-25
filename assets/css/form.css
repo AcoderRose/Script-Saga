@@ -1,0 +1,30 @@
+/* Styling for the form submit button. */
+#submit {
+  color: whitesmoke;
+  background-color: black;
+  min-height: 50px;
+  min-width: 100%;
+}
+
+#section-right {
+  float: right;
+  margin: 0px 40px;
+  width: 70%;
+}
+
+#mind-bigger {
+  margin: 26px 0;
+  text-align: center;
+  font-size: 38px;
+  line-height: 40px;
+}
+
+.form-style {
+  margin: 15px 0;
+  width: 100%;
+  display: block;
+}
+
+#vent-text {
+  height: 200px;
+}

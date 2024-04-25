@@ -19,22 +19,32 @@
     </header>
     <main>
       <div class="split left">
-        <section class="centered">
+        <section id="section-left" class="centered">
           <img id="pic-bigger" src="./assets/images/script-saga-logo.png" />
         </section>
       </div>
 
       <div class="split right">
-        <section class="centered">
+        <section id="section-right" class="centered">
           <h2 id="mind-bigger">What comes to mind?</h2>
           <form id="blog-form-style" method="POST">
-            <input type="text" placeholder="Username" id="username" />
-            <input type="text" placeholder="Title of Post" id="title" />
             <input
               type="text"
+              placeholder="Username"
+              id="username"
+              class="form-style"
+            />
+            <input
+              type="text"
+              placeholder="Title of Post"
+              id="title"
+              class="form-style"
+            />
+            <textarea
               placeholder="Feel free to vent away..."
               id="vent-text"
-            />
+              class="form-style"
+            ></textarea>
             <div>
               <p id="problem"></p>
             </div>
