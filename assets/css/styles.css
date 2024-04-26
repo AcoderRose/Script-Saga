@@ -14,9 +14,9 @@
     "Lucida Sans", Arial, sans-serif;
 }
 
-/* 2 second transition added for a nice gradual switching from light to dark modes. */
+/* 1 second transition added for a nice gradual switching from light to dark modes. */
 body {
-    transition: 2s;
+    transition: 1s;
       background-color: var(--light-white-green);
 }
 
