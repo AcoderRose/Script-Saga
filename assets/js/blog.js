@@ -15,7 +15,7 @@ function renderBlogs() {
     p.textContent = blog.ventText;
 
     const footer = document.createElement("footer");
-    footer.textContent = "Made with 💜 by " + blog.username;
+    footer.textContent = "🔥Hot off the presses🔥 by " + blog.username;
 
     section.appendChild(h3);
     section.appendChild(p);
